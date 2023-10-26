@@ -1,0 +1,33 @@
+.top-nav {
+    width: 100vw;
+    height: 10vh;
+    background-color: #3d405b;
+    color: #edd15d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-bottom: 4px solid lightblue;
+  }
+
+  .top-nav nav a {  
+    text-decoration: none;
+    color: #edd15d;
+    font-size: 21px;
+    margin: 0 50px;
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .top-nav nav span {
+    font-size: 21px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  } 
+
+
+  .top-nav nav a:active {
+    text-transform: uppercase;
+    color: #002;
+    background-color: #edd15d;
+  }

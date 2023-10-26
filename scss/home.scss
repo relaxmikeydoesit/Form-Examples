@@ -1,0 +1,34 @@
+.background {
+    background-image: url(../images/bg-form-paper.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 90vh;
+    margin: 0 auto;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    
+  }
+
+  .callout-strip {
+    width: 470px;
+    height: 210px;
+    text-wrap: wrap;
+    text-align: center;
+    color: #002;
+    background-color: #ff7f50;
+    font-size: 59px;
+    border-radius: 20px; 
+  }
+
+  .callout-msg {
+    width: 360px;
+    text-wrap: wrap;
+    font-size: 79px;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: 700;
+  }

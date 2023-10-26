@@ -1,0 +1,132 @@
+.container-desktop {
+     display: flex;
+     flex-direction: row;
+    }
+
+
+.left {
+    width: 50vw;
+    height: 100vh;
+    background-color: #3d405b;
+    color: #edd15d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+    .left-skew {
+      font-family: "p22-typewriter", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 48px;
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      position: absolute;
+      left: 0;
+      margin-left: 20px;
+      text-transform: uppercase;
+
+    }
+
+    .mobile-title {
+      display: none;
+    }
+  }
+
+
+  
+.right {
+  width: 50vw;
+  height: 100vh;
+  color: #edd15d;
+  background-color: #6495ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+
+  .right-skew {
+    font-family: "p22-typewriter", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 48px;
+      writing-mode: vertical-rl;
+      rotate: 180deg;
+      position: absolute;
+      left: 50%;
+      margin-left: 20px;
+  }
+
+  #mobTitleRight {
+    display: none;
+  }
+  #log-in {
+    margin: 50px
+
+  }
+  #submitEnter {
+    width: 35%;
+    margin: 30px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-size: 19px;
+    border-radius: 22px;
+    float: right;
+  }
+  #resetPW {
+    color: #edd15d;
+    text-decoration: none;
+    }
+  }
+
+//was built at 1168px//
+
+@media screen and (max-width: 960px) {
+  .container-desktop {
+    flex-direction: column;
+
+  .left {
+    width: 100vw;
+    height: auto;
+    
+    .left-skew {
+      display: none;}
+  }
+
+  .mobile-title {
+    display: block;
+    font-family: "p22-typewriter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    padding: 60px 0 5px 0;
+
+      #mobTitleLeft {
+      // display: block;
+      // position: absolute;
+      z-index: 2;
+
+    }
+  }
+  .right {
+    width: 100vw;
+    height: 70vh;
+    align-items: flex-start;
+
+    .right-skew {
+      display: none;
+    }
+
+    #mobTitleRight {
+      display: block;
+      position: absolute;
+
+    }
+
+
+    #log-in {
+      margin: 150px;
+     
+    }
+  }
+  }
+}

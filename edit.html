@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Info</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="wrapper2">
+        <div class="top-nav">
+            <nav>
+                 <a href="index.html">Home</a>
+                 <span>//</span>
+                 <a href="create.html">Create</a>
+                 <span>//</span>
+                 <a href="edit.html">Edit</a>
+                 <span>//</span>
+                 <a href="signup.html">Sign-Up | Sign-In</a>
+            </nav>
+        </div>
+
+        <div class="background-block">
+        
+            <button id="clientEdit">Load Profile</button>
+            
+            <form id="handyman">
+                <label for="clientName">Full Name:</label>
+                <input id="clientName" type="text" name="clientName">
+                <label for="clientEmail">Email Address:</label>
+                <input id="clientEmail" type="email" name="clientEmail">
+                <label for="clientPhone">Phone Number:</label>
+                <input id="clientPhone" type="tel" name="clientPhone">
+                <label for= "clientLocation">Service Address:</label>
+                <input id="clientLocation" type="text" name="clientLocation">
+                <label for="scheduling">Scheduling Your Project</label>
+                <input type="date" name="scheduling" id="scheduling">
+                <label for="indoorOutdoor">Is the service within the home or for the lawn?</label>
+                <input id="indoorOutdoor" type="text" name="indoorOutdoor">
+                <label for="pets">Are there pets on the premises?</label>
+                <input id="pets" type="text" name="pets">
+                <label for="hours">Est. Hours to Complete Job:</label>
+                <input type="text" name="hours" id="hours">
+                <label for="referral">How did you hear about Hoosier Handyman & Lawncare LLC?</label>
+                <input type="text" name="referral" id="referral">
+                <label for="moreInfo">Anything additional info?</label>
+                <input type="text" name="moreInfo" id="moreInfo">
+                <input id="editInfo" type="submit" value="Save Changes">
+            </form>
+        </div>
+        
+    </div>
+<script src="lib/jquery-3.6.4.min.js"></script>
+<script src="app/app.js"></script>  
+</body>
+</html>
